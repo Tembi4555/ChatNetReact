@@ -2,7 +2,7 @@
 {
     public record UserConnection
     (
-        string? ChatRoom
-
-    )
+        string? ChatRoom,
+        string? UserName
+    );
 }
